@@ -6,7 +6,7 @@ Tampilan Login Bash Shell [ Termux ]
 $apt update && apt upgrade
 $pkg install git bash -y
 $git clone
-$cd Bash-Login
+$cd BashLogin
 $bash login.sh
 ```
 Enjoyyy
