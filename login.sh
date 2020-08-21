@@ -1,18 +1,16 @@
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "\e[1;35m
-L)                       ##             S)ssss  h)              l)L  l)L  
-L)                                     S)    ss h)               \e[1;93ml)   l)  
-L)        o)OOO   g)GGG  i) n)NNNN      S)ss    \e[1;32mh)HHHH  e)EEEEE  l)   l)  
-L)       o)   OO g)   GG i) n)   NN         S)  h)   \e[1;96mHH e)EEEE   l)   l)  
-L)       o)   OO g)   GG i) n)   NN    S)    ss h)   HH e)       l)   l)  
-L)llllll  o)OOO   g)GGGG i) n)   NN     S)ssss  h)   HH  e)EEEE l)LL l)LL 
-                      GG                                                  
-                 g)GGGG                                                   
+╔╗───╔═══╗╔═══╗╔══╗╔═╗─╔╗
+║║───║╔═╗║║╔═╗║╚╣─╝║║╚╗║║
+║║───║║─║║║║─╚╝─║║─║╔╗╚╝║
+║║─╔╗║║─║║║║╔═╗─║║─║║╚╗║║
+║╚═╝║║╚═╝║║╚╩═║╔╣─╗║║─║║║
+╚═══╝╚═══╝╚═══╝╚══╝╚╝─╚═╝                                                   
 \e[1;35m
-[+] Author : RyM
-[+] Team : Army Cyber Network
-[+] Github : https://www.github.com/MaulanaRyM
+[+] Author : MrHades01
+[+] Team : Muslim Cyber Army
+[+] Github : https://www.github.com/MrHades01
 \e[0m"
 read -p $'\e[31mBuat Username Untuk Login :\e[0m ' username
 read -p $'\e[32mBuat Password Untuk Login :\e[0m ' password
@@ -35,12 +33,7 @@ read -p $'\e[32mInput Username :\e[0m ' user
 read -s -p $'\e[32mInput Password :\e[0m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 
-PS1='\033[1;32m
-\a┏\a  \033[1;32m
-\a┏\a━\a┃ Your Professional Terminal ┃--┃ \@ ┃---| \d ┃
-\a\a┃\a \a\033[1;32m┗━ $user ━┛\033[1;36m
-\a┗\a┳\a━\a📂\033[1;32m\w\a📂
-┗ 👉'
+PS1='\033[1;32m @Admin>>'
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
