@@ -1,0 +1,2 @@
+# BashLogin
+Bash Login: ( Termux )
